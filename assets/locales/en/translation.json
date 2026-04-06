@@ -1,0 +1,21 @@
+{
+  "nav": {
+    "sobre": "About",
+    "servicos": "Cases",
+    "contato": "Contact"
+  },
+  "hero": {
+    "title": "I build digital experiences focused on speed, security and conversion",
+    "cta": "Get in touch",
+    "resume": "Resume",
+    "subtitle": "I worked at marketing and advertising agencies developing landing pages, e-commerce platforms, and institutional websites, always focusing on performance and user experience. I have experience with payment gateways, Laravel, PHP (OOP), SQL, Next.js, Material UI, Git (PRs and code review), Vue.js, WordPress, and API integrations."
+
+  },
+  "projects": {
+    "label": "Selected works",
+    "headline": "Digital constructions created from scratch, from web development to implementation.",
+    "link": "Access",
+    "thema": "Exclusive Theme"
+  },
+  "copy": "Created with ♥ by Gui"
+}

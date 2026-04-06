@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- =============================================
+         META BÁSICAS
+    ============================================= -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- =============================================
+         SEO PRIMÁRIO
+    ============================================= -->
+    <title>Portfólio | GUIESDEV</title>
+    <meta name="description" content="Desenvolvo experiências digitais com foco em velocidade, segurança e conversão." />
+    <meta name="author" content="Guilherme Silva" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://guiesdev.com/" />
+
+    <!-- =============================================
+         OPEN GRAPH (Facebook / WhatsApp / LinkedIn)
+    ============================================= -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Portfólio | GUIESDEV" />
+    <meta property="og:description" content="Desenvolvo experiências digitais com foco em velocidade, segurança e conversão" />
+    <meta property="og:url" content="https://guiesdev.com/" />
+    <meta property="og:image" content="https://guiesdev.com/assets/img/qp-gui.jpeg" />
+    <meta property="og:image:alt" content="Capa Portfólio" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:site_name" content="Nome do Site" />
+    <meta property="og:locale" content="pt_BR" />
+
+
+    <!-- =============================================
+         FAVICONS
+    ============================================= -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/gui.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/gui.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/gui.png" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- =============================================
+         GEO / LOCALIZAÇÃO (opcional)
+    ============================================= -->
+    <meta name="geo.region" content="BR-SC" />
+    <meta name="geo.placename" content="Lages" />
+
+    <!-- =============================================
+         DADOS ESTRUTURADOS — JSON-LD (Schema.org)
+    ============================================= -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "Gui Es Dev — Portfólio",
+            "url": "https://guiesdev.com/",
+            "description": "Desenvolvedor especializado em sites, landing pages e soluções WordPress que geram resultado.",
+            "inLanguage": "pt-BR",
+            "publisher": {
+                "@type": "Person",
+                "name": "Guilherme Estevão",
+                "url": "https://guiesdev.com/",
+                "jobTitle": "Desenvolvedor Web"
+            },
+            "potentialAction": {
+                "@type": "SearchAction",
+                "target": "https://guiesdev.com/busca?q={search_term_string}",
+                "query-input": "required name=search_term_string"
+            }
+        }
+    </script>
+
+    <!-- =============================================
+         PERFORMANCE — PRECONNECT / DNS-PREFETCH
+    ============================================= -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="dns-prefetch" href="https://www.google-analytics.com" />
+    <link rel="dns-prefetch" href="https://cdn.jsdelivr.net" />
+
+    <!-- =============================================
+         GOOGLE FONTS — Quicksand
+    ============================================= -->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet" />
+
+    <!-- =============================================
+         i18n — i18next via CDN
+    ============================================= -->
+    <script src="https://cdn.jsdelivr.net/npm/i18next@23/i18next.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/i18next-http-backend@2/i18nextHttpBackend.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/i18next-browser-languagedetector@7/i18nextBrowserLanguageDetector.min.js" defer></script>
+
+    <!-- =============================================
+         STYLESHEET
+    ============================================= -->
+    <link rel="stylesheet" href="assets/main.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+
+<div id="curtain">
+    <img id="curtain-logo" src="assets/img/gui-svg.svg" alt="Logo" />
+</div>
+
+<header class="site-header">
+  <div class="header-inner">
+ 
+    <a href="#" class="logo">
+      <img src="assets/img/gui.png" alt="GuiesDev avatar" class="logo-avatar" />
+      <span class="logo-text">://GUIESDEV</span>
+    </a>    
+ 
+    <nav class="nav" aria-label="Navegação principal">
+      <a href="#servicos" class="nav-link" data-i18n="nav.servicos">Cases</a>
+ 
+      <span class="nav-divider" aria-hidden="true"></span>
+ 
+      <div class="lang-switcher">
+        <button class="lang-btn" data-lang="pt-BR" aria-pressed="true">PT</button>
+        <button class="lang-btn" data-lang="en"    aria-pressed="false">EN</button>
+      </div>
+    </nav>
+ 
+  </div>
+</header>
+
+<main id="conteudo-principal">
+     <div class="hero-inner">
+          <h1 class="hero-title is-visible" data-i18n="hero.title">
+               Desenvolvo experiências digitais com foco em velocidade,
+               segurança e conversão
+          </h1>
+          <p data-i18n="hero.subtitle">
+           Atuei em agências de marketing e publicidade desenvolvendo landing pages, e-commerces e sites institucionais com foco em performance e experiência do usuário. <br> Tenho experiência com gateways de pagamento, Laravel, PHP (OOP), SQL, Next.js, Material UI, Git (PRs e code review), Vue.js, WordPress e integrações com APIs.
+          </p>
+          <div>
+            <a href="https://wa.me/5549998096333" class="hero-cta" data-i18n="hero.cta" target="_blank">
+                Fale comigo
+            </a>
+            <a href="assets/doc/curriculo.pdf" class="hero-cta-outline" data-i18n="hero.resume" target="_blank">
+                Currículo
+                <span class="material-icons arrow-icon">arrow_forward</span>
+            </a>
+          </div>
+     </div>
+
+
+    <section class="projects" id="servicos">
+
+        <div class="projects-intro">
+            <span class="projects-label" data-i18n="projects.label">Trabalhos selecionados</span>
+            <h2 class="projects-headline" data-i18n="projects.headline">
+                Construções digitais criadas do zero, do desenvolvimento web à implementação
+            </h2>
+        </div>
+
+        <div class="projects-grid container">
+
+            <article class="project-card">
+                <a href="https://triumcapital.com.br/" class="project-thumb-link" aria-label="Ver Trium Capital | XP Investimentos" target="_blank">
+                    <div class="project-thumb">
+                        <img src="assets/img/trium.png" alt="Trium Capital | XP Investimentos1" loading="lazy" />
+                    </div>
+                </a>
+                <div class="project-info">
+                    <h3 class="project-name"> Trium Capital | XP Investimentos </h3>
+                    <a href="https://triumcapital.com.br/" target="_blank" class="project-link">
+                        <p data-i18n="projects.link">Acesso</p>
+                    </a> 
+                    <div class="project-tags">
+                        <span class="tag">WordPress</span>
+                        <span class="tag">Website</span>
+                        <span class="tag">Blog</span>
+                        <span class="tag" data-i18n="projects.thema">Tema Exclusivo</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <a href="https://expandbrands.com.br/" class="project-thumb-link" aria-label="Ver Expand Brands" target="_blank">
+                    <div class="project-thumb">
+                        <img src="assets/img/brands.png" alt="Expand Brands" loading="lazy" />
+                    </div>
+                </a>
+                <div class="project-info">
+                    <h3 class="project-name">Expand Brands</h3>
+                    <a href="https://expandbrands.com.br/" target="_blank" class="project-link">
+                        <p data-i18n="projects.link">Acesso</p>
+                    </a> 
+                    <div class="project-tags">
+                        <span class="tag">WordPress</span>
+                        <span class="tag">Website</span>
+                        <span class="tag">Blog</span>
+                        <span class="tag" data-i18n="projects.thema">Tema Exclusivo</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <a href="https://galaticoscapital.com/" class="project-thumb-link" aria-label="Ver Galaticos Capital" target="_blank">
+                    <div class="project-thumb">
+                        <img src="assets/img/galaticos.png" alt="Galaticos Capital" loading="lazy" />
+                    </div>
+                </a>
+                <div class="project-info">
+                    <h3 class="project-name">Galaticos Capital</h3>
+                    <a href="https://galaticoscapital.com/" target="_blank" class="project-link">
+                        <p data-i18n="projects.link">Acesso</p>
+                    </a> 
+                    <div class="project-tags">
+                        <span class="tag">WordPress</span>
+                        <span class="tag">Website</span>
+                        <span class="tag" data-i18n="projects.thema">Tema Exclusivo</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <a href="https://expandmidia.com/" class="project-thumb-link" aria-label="Ver projeto Expand Mídia" target="_blank">
+                    <div class="project-thumb">
+                        <img src="assets/img/midia.png" alt="Expand Mídia" loading="lazy" />
+                    </div>
+                </a>
+                <div class="project-info">
+                    <h3 class="project-name">Expand Mídia</h3>
+                    <a href="https://expandmidia.com" target="_blank" class="project-link">
+                        <p data-i18n="projects.link">Acesso</p>
+                    </a> 
+                    <div class="project-tags">
+                        <span class="tag">WordPress</span>
+                        <span class="tag">Website</span>
+                        <span class="tag" data-i18n="projects.thema">Tema Exclusivo</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <a href="https://mbexperience.com.br/" class="project-thumb-link" aria-label="Ver Monte Bravo Experience" target="_blank">
+                    <div class="project-thumb">
+                        <img src="assets/img/mb.png" alt="Monte Bravo Experience" loading="lazy" />
+                    </div>
+                </a>
+                <div class="project-info">
+                    <h3 class="project-name">Monte Bravo Experience</h3>
+                    <a href="https://mbexperience.com.br/" target="_blank" class="project-link">
+                        <p data-i18n="projects.link">Acesso</p>
+                    </a> 
+                      <div class="project-tags">
+                        <span class="tag">WordPress</span>
+                        <span class="tag">Landing Page</span>
+                        <span class="tag" data-i18n="projects.thema">Tema Exclusivo</span>
+                    </div>
+                </div>
+            </article>
+
+             <article class="project-card">
+                <a href="https://mses.com.br/" class="project-thumb-link" aria-label="MSES" target="_blank">
+                    <div class="project-thumb">
+                        <img src="assets/img/ms.png" alt="MSES" loading="lazy" />
+                    </div>
+                </a>
+                <div class="project-info">
+                    <h3 class="project-name">MSES</h3>
+                   <a href="https://mses.com.br/" target="_blank" class="project-link">
+                        <p data-i18n="projects.link">Acesso</p>
+                    </a>
+                    <div class="project-tags">
+                        <span class="tag">WordPress</span>
+                        <span class="tag">Website</span>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="container">
+        <img src="assets/img/gui.png">
+            <div>
+                <a href="https://www.linkedin.com/in/guilherme-estevao-dev/" target="_blank" class="arrow-myicon">
+                Linkedin
+                <span class="material-icons arrow-icon">arrow_forward</span>
+                </a>
+                <a href="mailto:guilhermeestevao123@outlook.com" target="_blank" class="arrow-myicon">
+                    guilhermeestevao123@outlook.com 
+                    <span class="material-icons arrow-icon">arrow_forward</span>
+                </a>
+                <a href="assets/doc/curricul.pdf"  target="_blank" class="arrow-myicon">
+                    <span data-i18n="hero.resume">Currículo</span>
+                    <span class="material-icons arrow-icon">arrow_forward</span>
+                </a>
+                <a href="https://wa.me/5549998096333"  class="arrow-myicon"  target="_blank">
+                    <span data-i18n="hero.cta">Fale comigo</span>
+                    <span class="material-icons arrow-icon">arrow_forward</span>
+                </a>
+            </div>
+           <div class="copy">
+                <div data-i18n="copy">Criado com ♥ por Gui</div>
+                <div>
+                <span id="current-year"></span> • 
+                <span id="current-time"></span> 
+                BR
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- =============================================
+     JAVASCRIPT (defer para não bloquear render)
+============================================= -->
+<script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+<script src="assets/main.js" defer></script>
+<script src="assets/i18n.js" defer></script>
+</body>
+</html>

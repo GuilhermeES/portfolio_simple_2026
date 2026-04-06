@@ -1,0 +1,20 @@
+{
+  "nav": {
+    "sobre": "Sobre",
+    "servicos": "Cases",
+    "contato": "Contato"
+  },
+  "hero": {
+    "title": "Desenvolvo experiências digitais com foco em velocidade, segurança e conversão",
+    "cta": "Fale comigo",
+    "resume": "Currículo",
+    "subtitle": "Atuei em agências de marketing e publicidade desenvolvendo landing pages, e-commerces e sites institucionais com foco em performance e experiência do usuário.  Tenho experiência com gateways de pagamento, Laravel, PHP (OOP), SQL, Next.js, Material UI, Git (PRs e code review), Vue.js, WordPress e integrações com APIs."
+  },
+  "projects": {
+    "label": "Trabalhos selecionados",
+    "headline": "Construções digitais criadas do zero, do desenvolvimento web à implementação.",
+    "link": "Acessar",
+    "thema": "Tema Exclusivo"
+  },
+  "copy": "Criado com ♥ por Gui"
+}
